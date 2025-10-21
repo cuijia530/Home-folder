@@ -1,3 +1,8 @@
 from fastapi import FastAPI
 
-print("Starting FAST application .")
+app = FastAPI()
+
+
+print("Starting FAST application . 123")
+
+print("新建文本")
