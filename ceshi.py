@@ -86,3 +86,108 @@
 
 
 # if判断 
+#逻辑运算符
+# and 或  or 非 not
+# age = 2
+# if not age >= 18:
+#     print("成年人")
+# else:
+#     print("未成年人或老年人")
+
+# print(not 3<5)  # 位运算符 与 & 或 | 非 ~ 异或 ^ 左移 << 右移 >>
+# a = 60  # 二进制: 0011 1100
+# b = 13  # 二进制: 0000 1101
+# print(a & b)  # 与运算: 0000 1100 (12)
+
+
+#三元运算符
+# age = 20
+# status = "成年人" if age >= 18 else "未成年人"
+# print(status)  # 输出: 成年人   
+
+# ages = 50
+# statuss = "老年人" if ages >= 60 else ("成年人" if ages >= 18 else "未成年人")
+# print(statuss)  # 输出: 成年人  
+
+# #嵌套if语句
+# score = 85
+# if score >= 60:
+#     if score >= 90:
+#         grade = 'A'
+#     elif score >= 80:
+#         grade = 'B'
+#     else:
+#         grade = 'C'
+# else:
+#     grade = 'F' 
+# print("成绩等级:", grade)  # 输出: 成绩等级: B
+
+
+
+# if elif else 语句
+# 循环语句 while循环 for循环  break continue pass
+# 循环语句：
+# a = 11
+# for i in range(1, a + 1):
+#     print(i)
+
+# # # 输出1到10   的数字
+    
+# # while 循环的基本语法   
+# #  定义初始变量
+# # while 条件表达式:
+# #     循环体
+# #     更新变量
+# count = 1
+# while count <= 10:
+#     print(count)
+#     count += 1 # 更新变量
+# # 输出1到10的数字
+
+
+
+# 死循环
+# while True:
+#     print("这是一个死循环")
+#     break  # 使用break语句跳出循环
+# else语句与循环
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count += 1
+# else:
+#     print("循环结束") # 输出: 循环结束
+
+# while循环嵌套
+# 含义
+# 一个while循环体内再包含一个while循环
+# 语法结构
+# while 条件表达式1:
+#     循环体1
+#     while 条件表达式2:
+#         循环体2
+#         更新变量2
+#     更新变量1
+# 输出i和j的值
+
+# i = 1
+# while i <= 10:
+#     j = 1
+#     while j <= 5:
+#         print("i =", i, ", j =", j)
+#         j += 1  # 更新变量2
+#     i += 1  # 更新变量1
+# 输出i和j的值
+
+a = 1
+while a <=9:
+    
+    b = 1
+    while b <=a:
+        print("%d*%d=%d" % (a, b, a*b), end="\t")
+        
+        b += 1
+    print()  # 换行 
+    a += 1
+print()
+    
