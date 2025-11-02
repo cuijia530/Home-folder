@@ -179,15 +179,8 @@
 #     i += 1  # 更新变量1
 # 输出i和j的值
 
-a = 1
-while a <=9:
-    
-    b = 1
-    while b <=a:
-        print("%d*%d=%d" % (a, b, a*b), end="\t")
-        
-        b += 1
-    print()  # 换行 
-    a += 1
-print()
-    
+
+# break 和 continue 关键字  都是在循环中使用的关键字
+# break 语句用于跳出当前循环，不再执行循环体内剩余的
+# continue 语句用于跳过当前循环的剩余部分，直接进入下一次循环
+
